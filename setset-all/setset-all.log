@@ -1,0 +1,76 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdftex 2024.10.29)  31 DEC 2024 17:05
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**setset-all.tex
+(./setset-all.tex
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/plain/cweb/cwebma
+c.tex
+\PPbox=\box16
+\MMbox=\box17
+\MGbox=\box18
+\MODbox=\box19
+\bak=\box20
+\bakk=\box21
+\ind=\count27
+\gdepth=\count28
+\secpagedepth=\count29
+\gtitle=\toks13
+\intersecskip=\skip18
+\toksA=\toks14
+\toksB=\toks15
+\toksC=\toks16
+\toksD=\toks17
+\toksE=\toks18
+\toksF=\toks19
+\usersanitizer=\toks20
+\countA=\count30
+\countB=\count31
+\countC=\count32
+\countD=\count33
+
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/generic/iftex/ift
+ex.sty)
+(/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/plain/cweb/cwebac
+romac.tex)
+\pagewidth=\dimen16
+\pageheight=\dimen17
+\fullpageheight=\dimen18
+\pageshift=\dimen19
+\cont=\write0
+\sbox=\box22
+\lbox=\box23
+\twodigits=\count34
+) *1 [1{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdft
+ex/updmap/pdftex.map}
+\openout0 = `setset-all.toc'.
+
+] [2] *5 [3] [4] [5] [6] *19 [7] [8] [9]
+[10] [11] [12] [13] [14] *39 [15] [16] *45 [17] *48 Index: (./setset-all.idx)
+[18] (./setset-all.toc) Number of named sections: (./setset-all.scn) 19
+Section names: (./setset-all.scn) [19] Table of contents: (./setset-all.toc)
+[0] )</opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/homebrew/Cellar/texlive/20
+240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></opt/homeb
+rew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/homebrew/Cellar/texlive/2
+0240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/homebr
+ew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r9.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsl10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/
+20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></opt/home
+brew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmtex10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on setset-all.pdf (20 pages, 263446 bytes).
+PDF statistics:
+ 736 PDF objects out of 1000 (max. 8388607)
+ 693 compressed objects within 7 object streams
+ 1 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
+
