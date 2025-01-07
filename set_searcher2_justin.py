@@ -32,7 +32,7 @@ if __name__ == "__main__":
     all_points = all_points_ag43()
     max_sets = 0
     max_config = [] 
-    for comb in tqdm(combinations(all_points, 8)):
+    for comb in tqdm(combinations(all_points, 6)):
         num_sets = 0
         for possible_set in combinations(comb, 3):
             if is_set(possible_set[0], possible_set[1], possible_set[2]):
@@ -43,16 +43,5 @@ if __name__ == "__main__":
             print("New maximum number of sets found", max_sets)
             print(max_config)
             print("")
-        if num_sets == 8:
-            num_same_elements = 0
-            for i in range(4):
-                if(comb[0][i] == comb[1][i] == comb[2][i] == comb[3][i] == comb[4][i] == comb[5][i] == comb[6][i] == comb[7][i]):
-                    num_same_elements+=1
-            if(num_same_elements != 2):
-                print("Non-subset of F_3^2 found")
-                print(comb)
-                break 
-        if num_sets > 8:
-            print("More than 8 sets found")
-            print(comb)
-            break 
+    print("Maximum number of sets found", max_sets)
+    print("Best configuration found", max_config)
