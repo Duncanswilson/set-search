@@ -1,5 +1,6 @@
 # set-search
 This repo is the codebase for the paper:  **Investigation into Maximal Number of Sets for 12 Cards**
+
 It offers multiple implementations for exploring the space of possible `n` card arrangements to find the maximal number of sets for the card game Set. 
 
 ## `set_searcher_complete.py` 
