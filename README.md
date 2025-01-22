@@ -13,7 +13,7 @@ Iterates over all possible configurations of boards for `3 <= n < 27` cards with
 Code to reproduce Table 3 in the paper.
 
 ## `cmm.py` 
-Code for running the Consecuative Maximization Algorithm from [Vinci09](https://www.setgame.com/sites/default/files/teacherscorner/SETPROOF.pdf).
+Code for running the Consecutive Maximization Algorithm from [Vinci09](https://www.setgame.com/sites/default/files/teacherscorner/SETPROOF.pdf).
 
 
 
