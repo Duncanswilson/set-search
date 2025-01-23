@@ -1,5 +1,4 @@
 from itertools import combinations 
-import time
 
 def add_mod3(a, b, c):
     """Component-wise addition mod 3 of two 3D tuples."""
@@ -13,7 +12,6 @@ if __name__ == "__main__":
     all_points = [(x,y,z) for x in range(3) for y in range(3) for z in range(3)]
     max_sets = 0
     for n in range(3, 28):
-        begin_time = time.time()
         for comb in combinations(all_points, n):
             
             num_sets = 0
@@ -22,6 +20,5 @@ if __name__ == "__main__":
                     num_sets +=1
             if num_sets > max_sets:
                 max_sets = num_sets
-        end_time = time.time()
        
         print("Max sets for %d cards: %d"%(n, max_sets))
