@@ -13,9 +13,7 @@ Iterates over all possible configurations of boards for `3 <= n < 27` cards with
 Code to reproduce Table 3 in the paper.
 
 ## `set_search_3d_magic_square.py`
-Computer check for Appendix B of the paper: for `n = 10, 11, 12`, every maximizing configuration of `n` cards with three properties contains a complete magic square (one of the 39 affine planes of F_3^3). For each `n`, the script enumerates the `n`-card configurations, counts their sets, checks whether they contain any of the 39 planes, and records the maximum number of sets overall and among configurations with no magic square.
-
-By default it uses a fixed-set symmetry reduction: affine maps of F_3^3 send sets to sets and planes to planes and can move any set onto any other, so it suffices to enumerate the `C(24, n-3)` configurations containing the set `{(0,0,0), (0,0,1), (0,0,2)}`. No maximizing configuration is lost. This takes about 10 seconds. Pass `--full` to enumerate all `C(27, n)` configurations instead (about two minutes for all three; same maxima). Requires only Python 3.
+Checks the computer-assisted step in Appendix B of the paper: for `n = 10, 11, 12` cards with three properties, every configuration with the maximum number of sets contains a magic square. For each `n`, it enumerates all `n`-card configurations, counts their sets, checks whether they contain any of the 39 magic squares (affine planes), and records the maximum number of sets overall and among the configurations with no magic square.
 
 ## `cmm.py` 
 Code for running the Consecutive Maximization Algorithm from [Vinci09](https://www.setgame.com/sites/default/files/teacherscorner/SETPROOF.pdf).
